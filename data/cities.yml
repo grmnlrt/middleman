@@ -1,0 +1,9 @@
+- name: berlin
+  address: alexanderplatz
+  picture: https://kitt.lewagon.com/placeholder/cities/berlin
+- name: paris
+  address: 16 villa gaudelet
+  picture: https://kitt.lewagon.com/placeholder/cities/paris
+- name: london
+  address: 16 villa gaudelet
+  picture: https://kitt.lewagon.com/placeholder/cities/london

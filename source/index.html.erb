@@ -1,15 +1,12 @@
----
-title: Le Wagon - Middleman
----
-
-<div id="home">
-  <div class="home-content">
-    <%= image_tag "logo.png", width: "200" %>
-    <p>
-      Middleman is now running!
-    </p>
-    <p class="about">
-      <%= link_to "More about this template", "about.html" %>
-    </p>
+<div class="container">
+  <div class="row">
+    <% date = Date.today.strftime("%b %d, %Y") %>
+    <h1>Today is <%= date %></h1>
+    <ul>
+      <% %w(ERB Ruby HTML Middleman SCSS).each do |tech| %>
+        <li>We're playing with <%= tech %></li>
+      <% end %>
+    </ul>
+    <%= link_to "Where can you find us", "/cities.html", class: "btn btn-primary" %>
   </div>
 </div>
